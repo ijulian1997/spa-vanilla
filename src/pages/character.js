@@ -1,3 +1,5 @@
+import getData from '../utils/getData';
+
 const character = () => {
 	const view = ` 
 		<div class="characters-inner">
