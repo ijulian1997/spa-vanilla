@@ -1,4 +1,4 @@
-const resolveRoute = (route) => {
+const resolveRoutes = (route) => {
 	// we know this because this API only has 256 characters 
 	if(route.length <= 3 )  {
 		let validRoute = route === '/' ? route : '/:id';
@@ -7,4 +7,4 @@ const resolveRoute = (route) => {
 	return `/${route}`;
 }
 
-export default resolveRoute;
+export default resolveRoutes;
